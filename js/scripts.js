@@ -25,10 +25,15 @@ if (number )
 //front end
 $(document).ready(function(){
   $("").submit(function(event) {
-    event.preventDefault();
-  })
+    event.preventDefault
 
-})
+    var userInput = parseInt($("input#userInput").val());
+    var result = beepBoop(userInput);
+
+    $("#result").show();
+    $(".beeps").text(result);
+  })
+});
 
 
 // extra
