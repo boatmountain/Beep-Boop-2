@@ -13,6 +13,7 @@ function beepBoop(userInput){
       beepBoopArray.push(" " + 1);
     }
   }
+  console.log(userInput);
   return beepBoopArray;
 };
 
@@ -23,7 +24,6 @@ $(document).ready(function(){
 
     var userInput = parseInt($("input#userInput").val());
     var result = beepBoop(userInput);
-
     $("#result").show();
     $(".beeps").text(result);
   })
