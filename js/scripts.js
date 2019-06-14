@@ -14,17 +14,11 @@ function beepBoop(userInput){
     }
   }
   return beepBoopArray;
-}
-
-var number
-
-if (number )
-
-
+};
 
 //front end
 $(document).ready(function(){
-  $("").submit(function(event) {
+  $("computerSound").submit(function(event) {
     event.preventDefault
 
     var userInput = parseInt($("input#userInput").val());
