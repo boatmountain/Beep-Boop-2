@@ -10,7 +10,7 @@ function beepBoop(userInput){
     } else if (i.toString().includes("1")){
       beepBoopArray.push("¡Beep");
     } else {
-      beepBoopArray.push(" " + 1);
+      beepBoopArray.push(" " + i);
     }
   }
   console.log(userInput);
@@ -19,11 +19,12 @@ function beepBoop(userInput){
 
 //front end
 $(document).ready(function(){
-  $("computerSound").submit(function(event) {
-    event.preventDefault
+  $("#computerSound").submit(function(event) {
+    event.preventDefault();
 
     var userInput = parseInt($("input#userInput").val());
     var result = beepBoop(userInput);
+
     $("#result").show();
     $(".beeps").text(result);
   })
