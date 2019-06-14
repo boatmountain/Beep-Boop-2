@@ -1,6 +1,10 @@
 //back end
-// Create a function "beepBoop"
 function beepBoop(userInput){
+  var beepBoopArray = [];
+
+  for(var i=0; i<= userInput; i++){
+    
+  }
 
 }
 
