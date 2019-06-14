@@ -4,9 +4,11 @@ function beepBoop(userInput){
 
   for(var i=0; i<= userInput; i++){
     if (i.toString().includes("3")){
-      beepBoopArray.push("I'm sorry, Dave.  I'm afraid I can't do that.");
+      beepBoopArray.push("Lo Siento, Dave.  Me temo que no puedo hacer eso.");
     } else if (i.toString().includes("2")){
-      beepBoopArray.push("Boop!");
+      beepBoopArray.push("¡Boop!");
+    } else if (i.toString().includes("1")){
+      beepBoopArray.push("¡Beep")
     }
     }
     )
