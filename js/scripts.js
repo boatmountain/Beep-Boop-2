@@ -8,12 +8,12 @@ function beepBoop(userInput){
     } else if (i.toString().includes("2")){
       beepBoopArray.push("¡Boop!");
     } else if (i.toString().includes("1")){
-      beepBoopArray.push("¡Beep")
+      beepBoopArray.push("¡Beep");
+    } else {
+      beepBoopArray.push(" " + 1);
     }
-    }
-    )
   }
-
+  return beepBoopArray;
 }
 
 var number
