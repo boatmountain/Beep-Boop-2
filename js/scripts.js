@@ -24,6 +24,9 @@ if (number )
 
 //front end
 $(document).ready(function(){
+  $("").submit(function(event) {
+    
+  })
 
 })
 
