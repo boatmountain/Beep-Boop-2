@@ -1,7 +1,18 @@
 body {
-  background-image: url(img/beach1.jpg);
+  background-image: url(https://yellowzebrasafaris.com/media/22561/sunbed-dhow-in-sight.jpg?anchor=center&mode=crop&width=2048&height=1024&format=jpg&rnd=131564443150000000);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-origin: inherit;
+}
+.btn {
+  border-radius: 400px;
+  border-color: red;
+  color: red;
+  font-size: 30px;
+}
+
+jumbotron {
+  border-color: red;
+  opacity: 0.5;
 }
